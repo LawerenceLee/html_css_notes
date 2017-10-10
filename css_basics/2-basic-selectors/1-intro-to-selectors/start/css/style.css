@@ -1,0 +1,94 @@
+/**/
+
+body {
+    color: #878787;
+    margin: 0;
+    font: normal, 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* Class Selector */
+
+.main-header {
+    background-color: #ffa949;
+}
+
+.title {
+    color: white;
+    font-size: 1.625rem; /* 26px/16px */
+}
+
+.primary-content, 
+.secondary-content {
+    width: 60%;
+}
+
+.primary-content, .main-header {
+    text-align: center;
+}
+
+.t-border {
+border-top: 2px solid lightgray;
+}
+
+/* Type Selectors */
+
+ol li {
+    background-color: tomato;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 5.625rem; /* 90px/16px */
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+h2 {
+    font-size: 53px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    color: #48525c;
+}
+
+
+
+/* Id Selectors */
+
+#main-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 10px #ffa949;
+}
+
+/* Pseduo Classes */
+
+a:link {
+    color: rgba(255, 169, 73, .4);
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: forestgreen;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+a:focus {
+    color: white;
+    background-color: orange;
+}
